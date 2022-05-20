@@ -2,7 +2,7 @@
 
 #### script permettant le partage d'un dossier sur un réseau local en Python3.8
 
-un vieux petit script que j'ai ressortie d'une clé USB perdue et enfin retrouvé, permettant de mettre en partage un dossier tout en laissant le choix du port de sortie à l'utilisateur.  
+un vieux petit script que j'ai ressortie d'une clé USB perdue et enfin retrouvée (!!!), permettant de mettre en partage un dossier tout en laissant le choix du port de sortie à l'utilisateur.  
 par défaut, le port de sortie sera le 8008, et il sera impossible de choisir un port en-dessous du numéro 1025, ni au dessus du numéro 65535 (question de sécurité).  
 il utilise les modules threading, tkinter, socket et http.server et donne un bon exemple concret de l'utilisation d'un thread avec une fenetre tkinter.  
 
